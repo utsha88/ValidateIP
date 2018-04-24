@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD661EC9208FA440006263B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661EC8208FA440006263B6 /* AppDelegate.swift */; };
+		BD661ECB208FA440006263B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661ECA208FA440006263B6 /* ViewController.swift */; };
+		BD661ECE208FA440006263B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD661ECC208FA440006263B6 /* Main.storyboard */; };
+		BD661ED0208FA440006263B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD661ECF208FA440006263B6 /* Assets.xcassets */; };
+		BD661ED3208FA440006263B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD661ED1208FA440006263B6 /* LaunchScreen.storyboard */; };
+		BD661EDE208FA441006263B6 /* ValidateIPAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661EDD208FA441006263B6 /* ValidateIPAddressTests.swift */; };
+		BD661EE9208FA441006263B6 /* ValidateIPAddressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD661EE8208FA441006263B6 /* ValidateIPAddressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD661EDA208FA441006263B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD661EBD208FA440006263B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD661EC4208FA440006263B6;
+			remoteInfo = ValidateIPAddress;
+		};
+		BD661EE5208FA441006263B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD661EBD208FA440006263B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD661EC4208FA440006263B6;
+			remoteInfo = ValidateIPAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD661EC5208FA440006263B6 /* ValidateIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidateIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD661EC8208FA440006263B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD661ECA208FA440006263B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD661ECD208FA440006263B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD661ECF208FA440006263B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD661ED2208FA440006263B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD661ED4208FA440006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD661ED9208FA441006263B6 /* ValidateIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD661EDD208FA441006263B6 /* ValidateIPAddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateIPAddressTests.swift; sourceTree = "<group>"; };
+		BD661EDF208FA441006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD661EE4208FA441006263B6 /* ValidateIPAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateIPAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD661EE8208FA441006263B6 /* ValidateIPAddressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateIPAddressUITests.swift; sourceTree = "<group>"; };
+		BD661EEA208FA441006263B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD661EC2208FA440006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661ED6208FA441006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661EE1208FA441006263B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD661EBC208FA440006263B6 = {
+			isa = PBXGroup;
+			children = (
+				BD661EC7208FA440006263B6 /* ValidateIPAddress */,
+				BD661EDC208FA441006263B6 /* ValidateIPAddressTests */,
+				BD661EE7208FA441006263B6 /* ValidateIPAddressUITests */,
+				BD661EC6208FA440006263B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD661EC6208FA440006263B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD661EC5208FA440006263B6 /* ValidateIPAddress.app */,
+				BD661ED9208FA441006263B6 /* ValidateIPAddressTests.xctest */,
+				BD661EE4208FA441006263B6 /* ValidateIPAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD661EC7208FA440006263B6 /* ValidateIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				BD661EC8208FA440006263B6 /* AppDelegate.swift */,
+				BD661ECA208FA440006263B6 /* ViewController.swift */,
+				BD661ECC208FA440006263B6 /* Main.storyboard */,
+				BD661ECF208FA440006263B6 /* Assets.xcassets */,
+				BD661ED1208FA440006263B6 /* LaunchScreen.storyboard */,
+				BD661ED4208FA440006263B6 /* Info.plist */,
+			);
+			path = ValidateIPAddress;
+			sourceTree = "<group>";
+		};
+		BD661EDC208FA441006263B6 /* ValidateIPAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD661EDD208FA441006263B6 /* ValidateIPAddressTests.swift */,
+				BD661EDF208FA441006263B6 /* Info.plist */,
+			);
+			path = ValidateIPAddressTests;
+			sourceTree = "<group>";
+		};
+		BD661EE7208FA441006263B6 /* ValidateIPAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD661EE8208FA441006263B6 /* ValidateIPAddressUITests.swift */,
+				BD661EEA208FA441006263B6 /* Info.plist */,
+			);
+			path = ValidateIPAddressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD661EC4208FA440006263B6 /* ValidateIPAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD661EED208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddress" */;
+			buildPhases = (
+				BD661EC1208FA440006263B6 /* Sources */,
+				BD661EC2208FA440006263B6 /* Frameworks */,
+				BD661EC3208FA440006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidateIPAddress;
+			productName = ValidateIPAddress;
+			productReference = BD661EC5208FA440006263B6 /* ValidateIPAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD661ED8208FA441006263B6 /* ValidateIPAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD661EF0208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddressTests" */;
+			buildPhases = (
+				BD661ED5208FA441006263B6 /* Sources */,
+				BD661ED6208FA441006263B6 /* Frameworks */,
+				BD661ED7208FA441006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD661EDB208FA441006263B6 /* PBXTargetDependency */,
+			);
+			name = ValidateIPAddressTests;
+			productName = ValidateIPAddressTests;
+			productReference = BD661ED9208FA441006263B6 /* ValidateIPAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD661EE3208FA441006263B6 /* ValidateIPAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD661EF3208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddressUITests" */;
+			buildPhases = (
+				BD661EE0208FA441006263B6 /* Sources */,
+				BD661EE1208FA441006263B6 /* Frameworks */,
+				BD661EE2208FA441006263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD661EE6208FA441006263B6 /* PBXTargetDependency */,
+			);
+			name = ValidateIPAddressUITests;
+			productName = ValidateIPAddressUITests;
+			productReference = BD661EE4208FA441006263B6 /* ValidateIPAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD661EBD208FA440006263B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Utsha Guha";
+				TargetAttributes = {
+					BD661EC4208FA440006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+					};
+					BD661ED8208FA441006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD661EC4208FA440006263B6;
+					};
+					BD661EE3208FA441006263B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J892HJ8YG9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD661EC4208FA440006263B6;
+					};
+				};
+			};
+			buildConfigurationList = BD661EC0208FA440006263B6 /* Build configuration list for PBXProject "ValidateIPAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD661EBC208FA440006263B6;
+			productRefGroup = BD661EC6208FA440006263B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD661EC4208FA440006263B6 /* ValidateIPAddress */,
+				BD661ED8208FA441006263B6 /* ValidateIPAddressTests */,
+				BD661EE3208FA441006263B6 /* ValidateIPAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD661EC3208FA440006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD661ED3208FA440006263B6 /* LaunchScreen.storyboard in Resources */,
+				BD661ED0208FA440006263B6 /* Assets.xcassets in Resources */,
+				BD661ECE208FA440006263B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661ED7208FA441006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661EE2208FA441006263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD661EC1208FA440006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD661ECB208FA440006263B6 /* ViewController.swift in Sources */,
+				BD661EC9208FA440006263B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661ED5208FA441006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD661EDE208FA441006263B6 /* ValidateIPAddressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD661EE0208FA441006263B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD661EE9208FA441006263B6 /* ValidateIPAddressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD661EDB208FA441006263B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD661EC4208FA440006263B6 /* ValidateIPAddress */;
+			targetProxy = BD661EDA208FA441006263B6 /* PBXContainerItemProxy */;
+		};
+		BD661EE6208FA441006263B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD661EC4208FA440006263B6 /* ValidateIPAddress */;
+			targetProxy = BD661EE5208FA441006263B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD661ECC208FA440006263B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD661ECD208FA440006263B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD661ED1208FA440006263B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD661ED2208FA440006263B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD661EEB208FA441006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD661EEC208FA441006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD661EEE208FA441006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD661EEF208FA441006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BD661EF1208FA441006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidateIPAddress.app/ValidateIPAddress";
+			};
+			name = Debug;
+		};
+		BD661EF2208FA441006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValidateIPAddress.app/ValidateIPAddress";
+			};
+			name = Release;
+		};
+		BD661EF4208FA441006263B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ValidateIPAddress;
+			};
+			name = Debug;
+		};
+		BD661EF5208FA441006263B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J892HJ8YG9;
+				INFOPLIST_FILE = ValidateIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.ValidateIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ValidateIPAddress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD661EC0208FA440006263B6 /* Build configuration list for PBXProject "ValidateIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD661EEB208FA441006263B6 /* Debug */,
+				BD661EEC208FA441006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD661EED208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD661EEE208FA441006263B6 /* Debug */,
+				BD661EEF208FA441006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD661EF0208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD661EF1208FA441006263B6 /* Debug */,
+				BD661EF2208FA441006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD661EF3208FA441006263B6 /* Build configuration list for PBXNativeTarget "ValidateIPAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD661EF4208FA441006263B6 /* Debug */,
+				BD661EF5208FA441006263B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD661EBD208FA440006263B6 /* Project object */;
+}
